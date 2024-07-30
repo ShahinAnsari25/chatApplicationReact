@@ -1,0 +1,22 @@
+.loginContainer {
+  width: 50%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+.btnSection {
+  margin: 0px;
+}
+.btnSection button {
+  margin: 0px !important;
+}
+.outerContainerLogin {
+  border-left: 1px solid rgb(192, 192, 192);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+

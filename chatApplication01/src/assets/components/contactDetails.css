@@ -1,0 +1,95 @@
+.contactDetails {
+  width: 26%;
+}
+.contactNameDp img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contactNameDp {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactName {
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+  margin: 0px;
+}
+.contactAbout {
+  font-size: 17px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.chatSettingsContainer svg,
+.privacyAndHelpContainer svg,
+.SharedPhotosContainer svg,
+.sharedFilesContainer svg {
+  height: 17px;
+  width: 17px;
+}
+.chatSettingsContainer,
+.privacyAndHelpContainer,
+.SharedPhotosContainer,
+.sharedFilesContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  color: white;
+  margin-left: 10px;
+}
+.imageContainer img {
+  height: 40px;
+  width: 40px;
+}
+.downloadIcon svg {
+  height: 20px;
+  width: 20px;
+}
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 3px;
+}
+.imgNameContainer {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: white;
+}
+.imgNameContainer p {
+  margin: 0px;
+}
+.btnSection {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.btnSection button {
+  margin: 3px;
+}
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.logOutBtn,
+.blockBtn {
+  margin-bottom: 5px !important;
+}
+.btnSectionContactPage button {
+  width: 100%;
+}
+.btnSectionContactPage {
+  margin: 5px;
+}

@@ -1,0 +1,67 @@
+.loginContainer svg,
+.signupContainer svg {
+  height: 19px;
+  width: 19px;
+  border: none;
+}
+input {
+  background: rgba(0, 0, 0, 0.3) !important;
+  color: white !important;
+  border: none !important;
+}
+.input::placeholder {
+  color: white !important;
+}
+.inputFiled span {
+  background: rgba(0, 0, 0, 0.3) !important;
+  border: none !important;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.profileAvatar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.avatar {
+  border-radius: 5%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.3) !important;
+  padding: 5px !important;
+
+  margin-right: 10px;
+}
+a {
+  color: white;
+}
+.signupContainer {
+  width: 25%;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+.inputFiled input ::placeholder {
+  color: white !important;
+}
+.passwordInput::placeholder,
+.emailInput::placeholder,
+.userNameInput::placeholder {
+  color: white !important;
+}
+.uploadText {
+  color: white;
+  margin-left: 20px;
+}
+.avatar {
+  width: 100%;
+  padding-right: 20px;
+}
+.avatar img {
+  height: 50px;
+  width: 50px;
+}

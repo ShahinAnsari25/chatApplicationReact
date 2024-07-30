@@ -1,0 +1,44 @@
+.searchContainer {
+  z-index: 10;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+}
+.searchSection input {
+  background-color: white !important;
+  width: 200px;
+  color: black !important;
+}
+.searchSection {
+  display: flex;
+  gap: 5px;
+}
+.itemSearch {
+  border-color: red;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.itemSearch p {
+  color: white;
+  margin: 0px;
+}
+.person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.person img {
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.itemSearch {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border-radius: 3px;
+}

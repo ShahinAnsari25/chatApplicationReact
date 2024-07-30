@@ -1,0 +1,164 @@
+.profilePictureI {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.top {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid gray;
+  padding: 7px;
+}
+.chatContainer {
+  padding-top: 10px;
+  width: 48%;
+  border-left: 0.5px solid gray;
+  border-right: 0.5px solid gray;
+}
+.name,
+.about {
+  margin: 0px;
+}
+.chatUserInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.chatUserName {
+  line-height: 17px;
+}
+.videoCallIcon svg,
+.callIcon svg,
+.infoIcon svg {
+  height: 17px;
+  width: 17px;
+}
+.infoIcon {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.infoIcon svg {
+  fill: black;
+  opacity: 0.7;
+  height: 15px;
+  width: 15px;
+}
+.icons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 5px;
+  margin-right: 10px;
+}
+.chatUserName {
+  color: white;
+}
+.galleryIcon svg,
+.cameraIcon svg,
+.micIcon svg,
+.imoji svg {
+  height: 17px;
+  width: 17px;
+}
+.searchInputChat {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0px !important;
+  color: white !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.searchInputChat::placeholder {
+  color: white !important;
+}
+.chatTypeSection {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 17px;
+  color: white;
+  margin-right: 5px;
+  width: 100%;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 0.5px solid gray;
+}
+.middle {
+  height: 78%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto !important;
+  padding-bottom: 10px;
+}
+.sent {
+  background-color: #9b9aff;
+  color: white;
+  width: fit-content;
+  padding: 8px;
+  margin-top: 5px;
+  align-self: flex-end;
+  border-radius: 10px;
+  margin-right: 3px;
+  border-bottom-right-radius: 0px;
+  max-width: 75%;
+}
+.sent p {
+  margin: 0px;
+}
+.received {
+  background: rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 8px;
+  margin-top: 5px;
+  align-self: flex-start;
+  border-radius: 10px;
+  margin-left: 3px;
+  border-bottom-left-radius: 0px;
+  max-width: 75%;
+  margin-bottom: 5px;
+}
+.received p {
+  margin: 0px;
+  color: white;
+}
+.receivedImage img {
+  height: 300px;
+  width: 300px;
+  margin-left: 3px;
+}
+.sentImage {
+  align-self: flex-end;
+}
+.sentImage img {
+  height: 300px;
+  width: 300px;
+  margin-right: 3px;
+}
+.sendBtn {
+  margin-left: 5px;
+}
+.EmojiContainer {
+  position: relative;
+  .abc {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+  }
+}
+.sent img,
+.received img {
+  width: 300px;
+}

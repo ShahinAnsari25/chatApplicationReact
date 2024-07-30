@@ -1,0 +1,53 @@
+svg {
+  height: 17px;
+  width: 17px;
+  margin: 5px;
+  fill: white;
+}
+.containerUser {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  padding: 5px;
+  gap: 10px;
+  align-items: center;
+  color: white;
+}
+.userName h2 {
+  margin: 0px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+.profilePicture {
+  border-radius: 50%;
+  padding: 3px;
+  border: 0.5px solid white;
+}
+.userDetails {
+  display: flex;
+  gap: 3px;
+  height: fit-content;
+}
+.profilePicture {
+  height: 25px;
+  width: 25px;
+  margin: 0px;
+}
+.dp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+.userDiv {
+  border-right: 0.5px solid gray;
+}
+.dp img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+.userDiv {
+  flex-grow: 1;
+}
